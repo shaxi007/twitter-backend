@@ -1,0 +1,33 @@
+[
+    {
+        "userId": 1,
+        "username": "shaxbo7z",
+        "age": "12",
+        "password": "12wqQfdfsf",
+        "gender": 1
+    },
+    {
+        "userId": 2,
+        "username": "shaxbo8z",
+        "age": "12",
+        "password": "12wqQfdfsf",
+        "gender": 1
+    },
+    {
+        "userId": 3
+    },
+    {
+        "userId": 4,
+        "username": "shaxbo01w41d2ds2z",
+        "age": "12",
+        "password": "fdf12Ads2sf",
+        "gender": 1
+    },
+    {
+        "userId": 5,
+        "username": "shaxbo01w41d2dsdfs2z",
+        "age": "12",
+        "password": "fdf12Ads2sf",
+        "gender": 1
+    }
+]
