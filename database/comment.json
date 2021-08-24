@@ -1,0 +1,23 @@
+[
+    {
+        "comment_body": "zo'r",
+        "comment_time": "2021-08-19",
+        "userId": 5,
+        "postId": 1,
+        "commentId": 1
+    },
+    {
+        "comment_body": "shaxboz",
+        "postId": 1,
+        "comment_time": "2021-08-19T11:14:45.296Z",
+        "userId": 5,
+        "commentId": 2
+    },
+    {
+        "comment_body": "asfsdfdsf",
+        "postId": 1,
+        "comment_time": "2021-08-19T11:14:45.296Z",
+        "userId": 1,
+        "commentId": 3
+    }
+]
