@@ -19,6 +19,7 @@ function POSTS(req,res) {
 			post_time: new Date(),
 			userId
 		}
+
 		posts.push(newPost)
 		fs.writeFileSync(path.join(process.cwd(),'database','posts.json'),JSON.stringify(posts, null,4))
 		res.send(newPost)

@@ -15,7 +15,6 @@ function postGet(req,res) {
 		comments = comments ? JSON.parse(comments) : []
 		users = users ? JSON.parse(users) : []
 		users.forEach(el=> delete el.password)
-		console.log(users)
 		posts.forEach(  el => {
 			el.user = users.find(user => user.userId == el.userId)
 			el.comment = comments.find(comment => comment.postId == el.postId)

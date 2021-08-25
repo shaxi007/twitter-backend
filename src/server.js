@@ -14,6 +14,7 @@ import {commentPost} from '../modules/comPosts.js'
 import {commentUp} from '../modules/commentUp.js'
 import {comDelete} from '../modules/comDelete.js'
 import {comGET} from '../modules/comGET.js'
+import {LIKE} from '../modules/likePost.js'
 
 let app = express()
 
@@ -34,19 +35,23 @@ app.post('/comments',comPost,(req,res)=>{
 	commentPost(req,res)
 })
 
+app.post('/like',cont,(req,res)=>{
+	LIKE(req,res)
+})
+
 app.get('/posts',(req,res)=>{
 	postGet(req,res)
 })
 
 app.get('/comments',(req,res)=>{
-	comGET(req,res)
+	comGET(req,res) 
 })
 
 app.get('/posts/:id',(req,res)=>{
 	postIdwith(req,res)
 })
 
-
+  
 app.delete('/posts',cont,(req,res)=>{
 	postDelete(req,res)
 })
